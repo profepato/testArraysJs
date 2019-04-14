@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Test patologías</title>
+    </head>
+    <body>
+        <form action="#">
+            <select id="cboPatologia">
+                <option value="1">Patología 1</option>
+                <option value="2">Patología 2</option>
+                <option value="3">Patología 3</option>
+                <option value="4">Patología 4</option>
+                <option value="5">Patología 5</option>
+                <option value="6">Patología 6</option>
+            </select>
+    
+            <a href="#" id="btnAgregarPatologia">Agregar</a>
+            <span id="mensaje"></span>
+    
+            <div id="divListaPatologias">
+                
+            </div>
+    
+            <button id="btnEnviarPatología">Enviar</button>
+    
+            <style>
+            #mensaje{
+                color:red;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 10px;
+            }
+            </style>
+
+            <input type="hidden" name="jsonPatologias" id="jsonPatologias">
+        </form>
+        <script src="patologias.js"></script>
+    </body>
+</html>
